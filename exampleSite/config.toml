@@ -19,6 +19,7 @@ copyright = "© 2019 — Some Author — All rights reserved."
 pygmentsCodefences = true
 pygmentsCodeFencesGuessSyntax = true
 pygmentsoptions = "linenos=table"
+pygmentsStyle = "vs"
 
 # Taxonomies
 [taxonomies]
@@ -29,7 +30,7 @@ pygmentsoptions = "linenos=table"
 [menu]
   # Header
   [[menu.main]]
-    url = "/posts/"
+    url = "/post/"
     name = "blog"
     weight = 1
   [[menu.main]]
@@ -47,7 +48,7 @@ pygmentsoptions = "linenos=table"
     name = "GitHub"
     weight = 1
   [[menu.footer]]
-    url = "/posts/index.xml"
+    url = "/post/index.xml"
     name = "RSS"
     weight = 2
   [[menu.footer]]
@@ -58,7 +59,7 @@ pygmentsoptions = "linenos=table"
 
 # Links format
 [permalinks]
-  posts = "/posts/:year/:month/:title/"
+  post = "/post/:year/:month/:title/"
 
 [params]
   # Date format (default: Jan 2, 2006)

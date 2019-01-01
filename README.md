@@ -2,6 +2,11 @@
 
 This is a very simple and lightweight Hugo Theme inspired by the geniuses behind [bettermotherfuckingwebsite.com](http://bettermotherfuckingwebsite.com/).
 
+## Screenshots
+
+![preview](https://raw.githubusercontent.com/Xzya/simple-hugo-theme/master/images/screenshot.png)
+![preview](https://raw.githubusercontent.com/Xzya/simple-hugo-theme/master/images/screenshot2.png)
+
 ## Configuration
 
 Check `exampleSite/config.toml` for an example configuration.

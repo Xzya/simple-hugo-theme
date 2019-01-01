@@ -29,7 +29,7 @@ pygmentsoptions = "linenos=table"
 [menu]
   # Header
   [[menu.main]]
-    url = "/blog/"
+    url = "/posts/"
     name = "blog"
     weight = 1
   [[menu.main]]
@@ -47,7 +47,7 @@ pygmentsoptions = "linenos=table"
     name = "GitHub"
     weight = 1
   [[menu.footer]]
-    url = "/blog/index.xml"
+    url = "/posts/index.xml"
     name = "RSS"
     weight = 2
   [[menu.footer]]
@@ -58,8 +58,7 @@ pygmentsoptions = "linenos=table"
 
 # Links format
 [permalinks]
-  blog = "/blog/:year/:month/:title/"
-
+  posts = "/posts/:year/:month/:title/"
 
 [params]
   # Date format (default: Jan 2, 2006)

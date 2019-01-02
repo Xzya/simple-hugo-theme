@@ -8,8 +8,10 @@
         {{- end -}}
     </title>
 
-    {{ $styles := resources.Get "css/style.css" | minify | fingerprint }}
-    <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}">
+    {{ $styles := resources.Get "css/style.css" | minify -}}
+    <style>
+        {{- $styles.Content | safeCSS -}}
+    </style>
 
     {{- if .RSSLink }}
     <link href="{{ .RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />

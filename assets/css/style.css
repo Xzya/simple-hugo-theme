@@ -41,3 +41,11 @@ div.footer {
     border-top: 1px solid;
     text-align: center;
 }
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -30,7 +30,7 @@ pygmentsStyle = "vs"
 [menu]
   # Header
   [[menu.main]]
-    url = "/post/"
+    url = "/posts/"
     name = "blog"
     weight = 1
   [[menu.main]]
@@ -48,7 +48,7 @@ pygmentsStyle = "vs"
     name = "GitHub"
     weight = 1
   [[menu.footer]]
-    url = "/post/index.xml"
+    url = "/posts/index.xml"
     name = "RSS"
     weight = 2
   [[menu.footer]]
@@ -59,7 +59,7 @@ pygmentsStyle = "vs"
 
 # Links format
 [permalinks]
-  post = "/post/:year/:month/:title/"
+  posts = "/posts/:year/:month/:title/"
 
 [params]
   # Date format (default: Jan 2, 2006)
